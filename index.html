@@ -27,17 +27,23 @@
         .seccion span{
             color: greenyellow;
         }
+        
         .seccion div p:nth-child(1){
             font-size: 45px;
             color: var(--black);
             background-color: var(--hospital-green);
         }
+        .seccion span{
+            font-size: 10px;
+        }
         .seccion div p:nth-child(2){
             font-size: 35px;
+            color: blue;
             background-color: var(--very-light-pink);
         }
         .seccion div p:nth-child(3){
             font-size: 25px;
+            color: aquamarine;
             background-color: var(--text-input-field);
         }
     </style>
@@ -46,8 +52,7 @@
     <h1 class="title">Esto es un ejemplo</h1>
     <div class="seccion">
         <div>
-            <p>La primera seccion</p>
-            <span>Segunda linea del texto</span>
+            <p>La primera seccion <span>principal</span></p>
             <p>La segunda seccion</p>
             <p>La tercera seccion</p>
     </div>
