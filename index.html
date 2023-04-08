@@ -15,6 +15,8 @@
             --hospital-green: #ACD9B2;
             --withe: #FFFFFF;
             --black: #000000;
+            --orange: #ffaa45;
+            --orangelite: #ebb470;
         }
         body{
             font-family: 'Quicksand', sans-serif;
@@ -23,7 +25,7 @@
             color: var(--very-light-pink);
             font-size: 40px;
             text-align: center;
-            border: 2px solid #ffaa45;
+            border: 2px solid var(--very-light-pink);
             border-radius: 10px;
         }
         .seccion div p:nth-child(1){
@@ -49,7 +51,7 @@
             display: flex;
             justify-content:space-between;
             padding: 24px;
-            border-bottom: 1px solid var(--very-light-pink);
+            border-bottom: 3px solid var(--very-light-pink);
 
         }
         .logo {
@@ -74,7 +76,23 @@
         }
 
         .menu-options ul li a{
-            
+            text-decoration: none;
+            margin-left: 12px;
+            color: var(--very-light-pink);
+            border: 1px solid --white;
+            border-radius: 10px;
+            padding: 10px;
+            height: 50px;
+        }
+
+        .menu-options ul li a:hover{
+            border: 1px solid var(--orangelite);
+            color: var(--orange);
+        }
+
+        .user-options img{
+            margin-left: 12px;
+            cursor: pointer;
         }
     </style>
 </head>
