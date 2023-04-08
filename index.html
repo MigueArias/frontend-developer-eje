@@ -45,9 +45,66 @@
             color: aquamarine;
             background-color: var(--text-input-field);
         }
+        nav{
+            display: flex;
+            justify-content:space-between;
+            padding: 24px;
+            border-bottom: 1px solid var(--very-light-pink);
+
+        }
+        .logo {
+            width: 100px;
+        }
+        .menu-options ul,
+        .user-options ul {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu-options {
+            display: flex;
+            margin-left: 0;
+        }
+
+        .menu-options ul {
+            margin-left: 24px;
+        }
+
+        .menu-options ul li a{
+            
+        }
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="menu-options">
+                <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo">
+                <ul>
+                    <li>
+                        <a href="/">Opcion 1</a>
+                    </li>
+                    <li>
+                        <a href="/">Opcion 2</a>
+                    </li>
+                    <li>
+                        <a href="/">Opcion 3</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="user-options">
+                <ul>
+                    <li>usuario@dominio.com</li>
+                    <li>
+                        <img src="./icons/icon_close.png" alt="exit">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <h1 class="title">Esto es un ejemplo</h1>
     <div class="seccion">
         <div>
