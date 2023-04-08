@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
-    <title>Ejercicios</title>
+    <title>Ejercicios de practica HTML/CSS</title>
     <style>
         :root {
             --very-light-pink: #C7C7C7;
@@ -46,6 +46,15 @@
             font-size: 25px;
             color: aquamarine;
             background-color: var(--text-input-field);
+        }
+        .primary-button{
+            width: 70px;
+            height: 70px;
+            background-color: #ffaa45;
+            border-radius: 10px;
+        }
+        .primary-button:hover{
+            cursor: pointer;
         }
         nav{
             display: flex;
@@ -94,6 +103,12 @@
             margin-left: 12px;
             cursor: pointer;
         }
+
+        #text-importa{
+            width: 250px;
+            height: 250px;
+            font-size: 15px;
+        }
     </style>
 </head>
 <body>
@@ -130,7 +145,12 @@
             <p>La segunda seccion</p>
             <p>La tercera seccion</p>
         </div> 
-        
+        <div id="text-importa">
+                Minim minim quis ex irure excepteur esse sint proident eu. Consequat labore deserunt velit amet magna proident quis fugiat consectetur incididunt. Laborum aliquip duis occaecat occaecat reprehenderit ea qui non.
+        </div>
+        <div>
+            <button class="primary-button" type="submit">Prueba de boton</button>
+        </div>
     </div>
 
 </body>
